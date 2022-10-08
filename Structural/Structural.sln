@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorExample", "Decorat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{CD18D1E8-1023-4B85-A23F-66C9FE437088}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeExample", "FacadeExample\FacadeExample.csproj", "{FAC05213-013B-4EF0-94B2-B925CEC3EB89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CD18D1E8-1023-4B85-A23F-66C9FE437088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD18D1E8-1023-4B85-A23F-66C9FE437088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD18D1E8-1023-4B85-A23F-66C9FE437088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC05213-013B-4EF0-94B2-B925CEC3EB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC05213-013B-4EF0-94B2-B925CEC3EB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC05213-013B-4EF0-94B2-B925CEC3EB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC05213-013B-4EF0-94B2-B925CEC3EB89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
