@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE5DAB85-F623-4C3C-8839-17FE81DDC4A9}</ProjectGuid>
+    <ProjectGuid>{08E6F587-836D-4B54-BABE-96A5656B89AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Command</RootNamespace>
     <AssemblyName>Command</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComplexCommand.cs" />
     <Compile Include="ICommand.cs" />
+    <Compile Include="Invoker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receiver.cs" />
+    <Compile Include="SimpleCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
